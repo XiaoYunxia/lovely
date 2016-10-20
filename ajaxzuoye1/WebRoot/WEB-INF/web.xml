@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="WebApp_ID" version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+	<display-name>ajaxzuoye1</display-name>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>com.newer.login.web.LoginServlet</servlet-class>
+    </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RepeatServlet</servlet-name>
+    <servlet-class>com.newer.login.web.RepeatServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AreaServlet</servlet-name>
+    <servlet-class>com.newer.login.web.AreaServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>StaffGetAllServlet</servlet-name>
+    <servlet-class>com.newer.login.web.StaffGetAllServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>StaffEditServlet</servlet-name>
+    <servlet-class>com.newer.login.web.StaffEditServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>StaffNewServlet</servlet-name>
+    <servlet-class>com.newer.login.web.StaffNewServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>StaffDeleteServlet</servlet-name>
+    <servlet-class>com.newer.login.web.StaffDeleteServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/login</url-pattern>
+    </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RepeatServlet</servlet-name>
+    <url-pattern>/repeat</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AreaServlet</servlet-name>
+    <url-pattern>/area</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StaffGetAllServlet</servlet-name>
+    <url-pattern>/GetAll</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StaffEditServlet</servlet-name>
+    <url-pattern>/StaffEdit</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StaffNewServlet</servlet-name>
+    <url-pattern>/StaffNew</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StaffDeleteServlet</servlet-name>
+    <url-pattern>/StaffDelete</url-pattern>
+  </servlet-mapping>
+</web-app>
